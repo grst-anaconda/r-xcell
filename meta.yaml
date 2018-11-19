@@ -8,7 +8,7 @@ package:
   version: "1.12_c03d44840"
 
 source:
-  fn: xcell_1.12_c03d44840.tar.gz
+  fn: xcell_1.12_c03d44840.zip
   url:
     - https://github.com/dviraran/xCell/archive/c03d448402051a95e330fcd921430d424eb5952f.zip
   sha256: 1b0b0db5ae43317756b0e246e637e47057c703677c6a3a333c787b5ca0f73b86
