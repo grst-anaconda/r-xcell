@@ -5,13 +5,13 @@ package:
   name: r-xcell
   # Note that conda versions cannot contain -, so any -'s in the version have
   # been replaced with _'s.
-  version: "1.12"
+  version: "1.12_c03d44840"
 
 source:
-  fn: xcell_1.12.tar.gz
+  fn: xcell_1.12_c03d44840.zip
   url:
-    - https://github.com/dviraran/xCell/archive/1.12.tar.gz
-  sha256: d204f4069708263b80920aa11e1a5815d9584c9e49237de7f40931856bec4cdf
+    - https://github.com/dviraran/xCell/archive/c03d448402051a95e330fcd921430d424eb5952f.zip
+  sha256: 1b0b0db5ae43317756b0e246e637e47057c703677c6a3a333c787b5ca0f73b86
 
   # You can add a hash for the file here, like md5 or sha1
   # md5: 49448ba4863157652311cc5ea4fea3ea
@@ -39,6 +39,7 @@ requirements:
     - bioconductor-gsva =1.30.0
     - bioconductor-gseabase =1.44.0
     - r-pracma =2.2.5
+    - r-curl =3.3
     - posix               # [win]
     - {{native}}toolchain # [win]
       #    - gcc                 # [not win]
@@ -50,6 +51,7 @@ requirements:
     - bioconductor-gsva >=1.26.0
     - bioconductor-gseabase >=1.40.0
     - r-pracma >=2.0.4
+    - r-curl >=3.2
 
 test:
   commands:
