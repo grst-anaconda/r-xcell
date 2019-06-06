@@ -39,6 +39,8 @@ requirements:
     - bioconductor-gsva =1.30.0
     - bioconductor-gseabase =1.44.0
     - r-pracma =2.2.5
+    - r-digest =0.6.19
+    - r-quadprog =1.5_7
     - r-curl =3.3
     - posix               # [win]
     - {{native}}toolchain # [win]
@@ -51,6 +53,8 @@ requirements:
     - bioconductor-gsva >=1.26.0
     - bioconductor-gseabase >=1.40.0
     - r-pracma >=2.0.4
+    - r-digest >=0.6.15
+    - r-quadprog >=1.5_5
     - r-curl >=3.2
 
 test:
