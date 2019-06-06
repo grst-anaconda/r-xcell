@@ -1,5 +1,5 @@
 # [r-xcell](https://anaconda.org/grst/r-xcell)
-![travis ci](https://api.travis-ci.org/grst-anaconda/r-xcell.svg?branch=master)
+[![travis ci](https://api.travis-ci.org/grst-anaconda/r-xcell.svg?branch=master)](https://travis-ci.org/grst-anaconda/r-xcell/)
 
 Recipies for my anaconda packages.
 
