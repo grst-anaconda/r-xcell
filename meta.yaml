@@ -33,12 +33,12 @@ build:
 # Suggests: testthat, knitr, rmarkdown, shiny
 requirements:
   build:
-    - r-base =3.4.1
-    - r-roxygen2 =6.0.1
-    - r-mass =7.3_48
-    - bioconductor-gsva =1.26.0
-    - bioconductor-gseabase =1.40.0
-    - r-pracma =2.0.4
+    - r-base =3.5.1
+    - r-roxygen2 =6.1.1
+    - r-mass =7.3_51.4
+    - bioconductor-gsva =1.30.0
+    - bioconductor-gseabase =1.44.0
+    - r-pracma =2.2.5
     - posix               # [win]
     - {{native}}toolchain # [win]
       #    - gcc                 # [not win]
